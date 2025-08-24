@@ -306,16 +306,3 @@ document.getElementById('collapse').addEventListener('click', () => cats.forEach
 </script>
 </body>
 </html>
-/* --- Mobile overlap fix for Jawahar Catalogue --- */
-@media (max-width: 768px) {
-  .products {
-    position: relative !important;
-    z-index: 1000 !important; /* Bring products above category bar */
-    margin-top: 120px !important; /* Push products below categories */
-  }
-
-  .categories {
-    position: relative !important;
-    z-index: 1 !important;
-  }
-}
